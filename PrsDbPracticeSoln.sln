@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrsDbPractice", "PrsDbPractice\PrsDbPractice.csproj", "{32DAFA6C-CA9C-4AA5-959E-011DF63A11CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrsLibrary", "PrsLibrary\PrsLibrary.csproj", "{7FF56917-39B6-4C06-928A-521D12945E25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32DAFA6C-CA9C-4AA5-959E-011DF63A11CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32DAFA6C-CA9C-4AA5-959E-011DF63A11CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32DAFA6C-CA9C-4AA5-959E-011DF63A11CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32DAFA6C-CA9C-4AA5-959E-011DF63A11CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF56917-39B6-4C06-928A-521D12945E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF56917-39B6-4C06-928A-521D12945E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF56917-39B6-4C06-928A-521D12945E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF56917-39B6-4C06-928A-521D12945E25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47508E76-21A9-48F0-BA41-3D1722198DCE}
+	EndGlobalSection
+EndGlobal
