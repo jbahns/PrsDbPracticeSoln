@@ -27,9 +27,6 @@ namespace PrsLibrary.Models
 
         public User() { }
 
-        public string Login(string username, string password)
-        {
-            return "NotFound";
-        }
+        
     }
 }

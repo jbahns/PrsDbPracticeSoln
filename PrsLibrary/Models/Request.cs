@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PrsLibrary.Models
 {
@@ -20,10 +21,10 @@ namespace PrsLibrary.Models
         public string DeliveryMode { get; set; } = "Pickup";
         [Required, StringLength(10)]
         public string Status { get; set; } = "NEW";
-        [Required]
+        [Column(TypeName = "decimal(11,2)")]
         public Decimal Total { get; set; } = 0;
-        [Required]
-        public virtual int UserID { get; set; }
+        public int UserID { get; set; }
+        public virtual User User { get; set; }
 
         public Request() { }
 
